@@ -1,2 +1,2 @@
-# portfolio-page-tut
+# Portfolio Page tutorial series
 Traversy Portfolio tutorial
