@@ -191,9 +191,28 @@ main {
     width: 100%;
     border: #fff 3px solid; }
     .projects img:hover {
-      opcaity: 0.5;
+      opacity: 0.5;
       border-color: cyan;
       transition: all 750ms ease-out; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: #fff 3px solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 750ms ease-out; }
+    .boxes div:hover {
+      padding: 1rem 2rem;
+      background: cyan;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
 
 .btn, .btn-light, .btn-dark {
   display: block;
